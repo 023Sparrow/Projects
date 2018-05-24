@@ -9,4 +9,4 @@ def reversestr(s):
 def if_palindrome(s):
     return s == reversestr(s)
 
-print(if_palindrome('asdsa'))
+print(if_palindrome('racecar'))
