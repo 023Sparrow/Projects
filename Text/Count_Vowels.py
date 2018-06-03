@@ -6,15 +6,15 @@ def count(w,s):
     return countnum
 
 def countvowels(s):
-    counta = count('a',s)
-    counte = count('e',s)
-    counti = count('i',s)
-    counto = count('o',s)
-    countu = count('u',s)
-    return counta+counte+counti+counto+countu
+    a = count('a',s)
+    e = count('e',s)
+    i = count('i',s)
+    o = count('o',s)
+    u = count('u',s)
+    return a+e+i+o+u
 
 testtext = 'vnaofnoaijnavavijfvapvnpofj'
-print('''there are {} vowels in testtext.
+print('''there are {} vowels in vnaofnoaijnavavijfvapvnpofj.
          {} a
          {} e
          {} i

@@ -14,11 +14,8 @@ def nameofnum(x):
     if x == '-':return 'negative'
 
 def number_names(n):
-    numstr = ''
-    numlist = list(str(n))
-    namelist = [nameofnum(i) for i in numlist]
-    for j in namelist:
-        numstr = numstr + j + ' '
-    return  numstr
+    nameiter = map(nameofnum, str(n))
+    return " ".join(nameiter)
+
 print(number_names(-1154555555555556.185555555555555555555555548))
 # 应该支持最多一百万个输入 没有做到 ，应该是string的长度限制问题。明天 请查 string 的长度限制 并解决

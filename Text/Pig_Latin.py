@@ -1,3 +1,4 @@
+@profile
 def piglatin(s):
     vowel = 'aeiou'
     if s[0] in 'aeiou':
