@@ -1,7 +1,5 @@
 def reversestr(s):
-    s = list(s)
-    s.reverse()
-    return ''.join(s)
+    return s[::-1]
 
 def if_palindrome(s):
     return s == reversestr(s)

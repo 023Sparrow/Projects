@@ -1,4 +1,3 @@
-@profile
 def piglatin(s):
     vowel = 'aeiou'
     if s[0] in 'aeiou':
@@ -8,3 +7,4 @@ def piglatin(s):
     return s
 print(piglatin('apple'))
 print(piglatin('balihe'))
+
